@@ -41,3 +41,8 @@ gem 'bcrypt-ruby', '3.1.2'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :test do
+
+gem 'factory_girl_rails', '4.2.1'
+
+end
